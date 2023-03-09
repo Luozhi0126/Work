@@ -1,0 +1,639 @@
+* {
+  margin: 0;
+  padding: 0px;
+  background-color: #e0ddd3;
+}
+.wrap {
+  margin: 0 auto;
+  padding: 0;
+}
+.c-container {
+  margin:auto;
+  width: 70%;
+  margin-top: 100px;
+  padding: 0px;
+  transform: translateX(-50%);
+}
+
+.invalid-feedback{
+  background-color: white;
+}
+
+/* 購物車 Cart */
+
+.c-CartTable {
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.c-CartTable img {
+  width: 140px;
+  height: 120px;
+}
+.c-CartTable path,
+.c-CartTable svg {
+  background-color: #e0ddd3;
+}
+
+.c-CartTable button {
+  width: 25px;
+  height: 25px;
+  color: #b58686;
+  border: #b58686;
+}
+
+.c-CartTable a {
+  color: gray;
+}
+
+.c-CartTable tbody {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+table {
+  margin-bottom: 50px;
+}
+
+.c-CartTable h5 {
+  color: darkred;
+  background-color: #e0ddd3;
+  text-align: center;
+}
+
+.c-CartTable td{
+  width:25%;
+}
+
+.c-CartCardContent {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.c-CartCardProduct {
+  width: 850px;
+  display: flex;
+  justify-content: space-around;
+  float: center;
+  text-align: center;
+}
+
+.c-CartCardProduct img {
+  width: 250px;
+  height: 190px;
+  object-fit: cover;
+  object-position: center center;
+  object-fit: cover;
+}
+
+.c-CartCard {
+  width: 30%;
+  justify-content: start;
+  align-items: start;
+}
+
+.c-CartCardText {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.c-CartCardText h5 {
+  background: #e0ddd3;
+  color: goldenrod;
+}
+
+.c-CartCardText a {
+  background: #e0ddd3;
+  color: #b58686;
+  text-decoration: none;
+}
+
+.c-CartCardText h6 {
+  background: #e0ddd3;
+  color: #b58686;
+}
+
+.c-CartCardPrice {
+  width: 20%;
+}
+
+.c-CartCardPriceText {
+  display: flex;
+  justify-content: center;
+}
+
+.c-CartCardPriceTextBtn {
+  padding: 10px;
+  float: right;
+  color: white;
+  background-color: #893b3b;
+  border: #893b3b;
+}
+
+/* 結帳流程  CartProcess*/
+
+.c-p-container{
+  margin:auto;
+  width: 500px;
+  margin-top: 100px;
+  padding: 0px;
+  transform: translateX(-50%);
+}
+
+.c-p-container input{
+  border-radius: 10px;
+}
+
+.c-CartConfirm {
+  width: 100%;
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: white;
+  text-align: center;
+}
+
+.c-CartConfirm h3,
+.text-21-500 {
+  background: white;
+}
+
+.c-CartCustomerText {
+  display: flex;
+  justify-content: space-between;
+}
+
+.c-CartCustomerTextInput{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.c-CartCustomer {
+  width: 100%;
+  background: white;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.c-CartCustomer h5{
+  margin: 0;
+}
+
+.form-label{
+margin: 0;
+}
+
+label {
+  background: white;
+}
+.mb-3 {
+  background: white;
+  font-size: 16px;
+  background-color: white;
+}
+
+form {
+  background-color: white;
+}
+
+textarea {
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+span {
+  font-size: 12px;
+  color: red;
+  background: white;
+}
+
+.c-Checkbox {
+  background-color: white;
+}
+
+lable {
+  background: white;
+}
+.c-address {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  margin-bottom: 10px;
+}
+
+.c-address input {
+  width: 80%;
+}
+
+.c-addressinput{
+  background-color: white;
+}
+
+.c-bill {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  margin-bottom: 10px;
+}
+.c-bill input {
+  width:90%;
+}
+
+.c-billbg{
+  background-color: white;
+}
+
+.c-Cartbtn {
+  display: flex;
+  justify-content: center;
+}
+
+.c-Cartbtn h3 {
+  text-align: center;
+  background-color: #893b3b;
+}
+
+.Cartbtn {
+  padding: 5px;
+  color: white;
+  border: #893b3b;
+  background-color: #893b3b;
+  width: 180px;
+  height: 50px;
+}
+
+/* 訂單確定  CreateOrder*/
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  margin-top: 150px;
+  transform: translateX(-50%);
+}
+
+.Left {
+  margin: 0;
+  width: 47%;
+}
+
+.c-CartTable a {
+  display: flex;
+  justify-content: center;
+}
+
+.c-Coupon {
+  display: flex;
+  justify-content: start;
+  margin: 5px;
+  background-color: #e0ddd3;
+}
+
+.c-Coupon input {
+  width: 90%;
+}
+
+.c-CouponText {
+  width: 90%;
+  margin: auto;
+}
+
+.c-Couponbtn {
+  width: 40px;
+  height: 40px;
+  color: white;
+  border: #b58686;
+  background-color: #b58686;
+  margin: 10px;
+}
+.Left span {
+  color: red;
+  font-size: 16px;
+  font-weight: bolder;
+  background: #e0ddd3;
+}
+
+p {
+  font-size: 12px;
+}
+
+.Right {
+  margin: auto;
+  width: 47%;
+}
+
+.c-SubtotalGroup {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+
+.c-Subtotal {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.c-SubtotalText {
+  width: 80%;
+  margin: auto;
+  text-align: right;
+  display: flex;
+  justify-content: end;
+}
+
+.c-SubtotalPrice {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.c-SubtotalPrice h3,
+.c-SubtotalPrice h2 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.c-CartMaterial {
+  width: 80%;
+  margin: auto;
+}
+
+.c-CartMaterialText {
+  display: flex;
+  justify-content: space-between;
+}
+
+.c-CartConfirmOrder {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.c-CartConfirmOrder h4 {
+  padding-top: 10px;
+}
+
+.c-CartDetail {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  margin-bottom: 10px;
+  background: white;
+}
+
+.c-CartDetail input {
+  width: 80%;
+}
+
+.c-CartDetail label {
+  background: white;
+}
+
+.c-CartConfirmOrder input,
+h5,
+h6 {
+  background: white;
+}
+
+.c-CartLinePay {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  padding: 10px;
+  border-top: 1px solid black;
+  display: flex;
+}
+
+svg {
+  background: white;
+}
+
+path {
+  background: white;
+}
+
+.c-CartConfirmOrderbtn {
+  color: white;
+  margin: 10px;
+  background-color: #893b3b;
+  border: #893b3b;
+  width: 250px;
+  height: 63px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-CartConfirmbtn {
+  display: flex;
+  justify-content: center;
+}
+
+.c-CartCustomerCheck {
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: start;
+  margin-top: 20px;
+}
+
+.c-CartCustomerCheckText {
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.c-CartCustomerCheckText h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.c-CartCustomerCheckText span {
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+.c-CartConfirmOrderbtn h3 {
+  margin: 0;
+  display: flex;
+  background: #893b3b;
+}
+
+/* Navbar */
+
+.c-NavbarContainer {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  margin: auto;
+}
+
+.c-Navbar {
+  width: 80%;
+  height: 100px;
+  margin: auto;
+  border: 3px solid black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.c-Navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.c-Navbar a {
+  background-color: #e0ddd3;
+  color: black;
+}
+
+.c-Navbar svg,
+.c-Navbar path {
+  background-color: #e0ddd3;
+}
+
+.c-NavbarCart {
+  width: 400px;
+  background-color: #2c2e26;
+  transform: translateX(-100%);
+  transition: 1s;
+}
+
+.c-NavbarZ{
+  position: relative;
+  z-index: 2;
+}
+
+.side{
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  /* transform: translateX(-50%); */
+  z-index: 1;
+}
+
+.Move {
+  transform: translateX(0);
+}
+
+.c-NavbarDetailContent {
+  display: flex;
+  align-items: center;
+  background-color: gainsboro;
+}
+
+.c-NavbarCartText {
+  width: 100%;
+}
+
+.c-NavbarCartText h2 {
+  color: white;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #2c2e26;
+}
+
+.c-NavbarCartbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c2e26;
+}
+
+.c-NavbarCart h3 {
+  background-color: #893b3b;
+}
+
+.c-NavbarCart button {
+  margin: 50px;
+  width: 180px;
+  height: 50px;
+  color: white;
+  background-color: #893b3b;
+  border: #893b3b;
+}
+
+.c-NavbarDetailDard {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: gainsboro;
+}
+
+.c-NavbarDetailDard a {
+  color: black;
+}
+
+.c-NavbarDetailContent {
+  border-bottom: 1px solid black;
+}
+
+.c-NavbarDetailContent svg,
+.c-NavbarDetailContent path {
+  color: white;
+  background-color: gainsboro;
+}
+
+.c-NavbarDetailDard img {
+  width: 70px;
+  height: 70px;
+  background-color: gainsboro;
+}
+
+.c-NavbarDetail h5 {
+  color: white;
+  background-color: gainsboro;
+}
+
+/* Page */
+
+.c-CartMoving {
+  margin: 0 auto;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.c-StopBall {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.c-StopBall h4 {
+  margin: 0 auto;
+  background-color: white;
+  text-align: center;
+}
+
+
+
+/* Steps */
+
+.Steps{
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+}
